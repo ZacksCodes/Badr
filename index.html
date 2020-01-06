@@ -1,0 +1,212 @@
+HTML
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>students Help</title>
+<link rel="stylesheet" type="text/css" href="styel.css"/>
+ </head>
+ <div>
+ <div class="center">
+ <center>
+ <!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+<center><script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 31, 2020 23:59:59").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+ // Get today's date and time
+ var now = new Date().getTime();
+ // Find the distance between now and the count down date
+ var distance = countDownDate - now;
+ // Time calculations for days, hours, minutes and seconds
+ var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ // Display the result in the element with id="demo"
+ document.getElementById("demo").innerHTML= days + "Days " + hours + "Hours "
+ + minutes + "Min " + seconds + "Sec";
+ // If the count down is finished, write some text
+ if (distance < 0) {
+ clearInterval(x);
+ document.getElementById("demo").innerHTML = "EXPIRED";
+ }
+}, 1000);
+</script></center></center>
+</div>
+</div>
+ <center><p style="color:red;">left for registrations</p></center>
+<div class="main">
+</div>
+<center><svg class="svg-icon" viewBox="0 0 20 20">
+<path d="M10.25,2.375c-4.212,0-
+7.625,3.413-7.625,7.625s3.413,7.625,7.625,7.625s7.625-3.413,7.625-
+7.625S14.462,2.375,10.25,2.375M10.651,16.811v-0.403c0-0.221-0.181-0.401-0.401-0.401s0.401,0.181-0.401,0.401v0.403c-3.443-0.201-6.208-2.966-6.409-6.409h0.404c0.22,0,0.401-
+0.181,0.401-
+0.401S4.063,9.599,3.843,9.599H3.439C3.64,6.155,6.405,3.391,9.849,3.19v0.403c0,0.22,0.181,0.401,
+0.401,0.401s0.401-0.181,0.401-0.401V3.19c3.443,0.201,6.208,2.965,6.409,6.409h-0.404c-0.22,0-
+0.4,0.181-0.4,0.401s0.181,0.401,0.4,0.401h0.404C16.859,13.845,14.095,16.609,10.651,16.811
+M12.662,12.412c-0.156,0.156-0.409,0.159-0.568,0l-2.127-
+2.129C9.986,10.302,9.849,10.192,9.849,10V5.184c0-0.221,0.181-0.401,0.401-
+0.401s0.401,0.181,0.401,0.401v4.651l2.011,2.008C12.818,12.001,12.818,12.256,12.662,12.412"></p
+ath>
+</svg></center>
+<div class="topnav">
+ <a class="active" href="https://studentshelp19.wixsite.com/website">Home</a>
+ <a href="https://studentshelp19.wixsite.com/website/blog">Blog</a>
+ <a href="https://studentshelp19.wixsite.com/website/services">Services</a>
+</div>
+
+ <!-- header start -->
+ <div id="header" class="section">
+ <img alt="" class="img-circle" src="https://studentloanclub.com/wpcontent/uploads/2017/09/hat_500-w-padding.png">
+ <p>Students Help</p>
+ </div>
+ <!-- header end -->
+
+ <!-- About us section start -->
+ <div class="section">
+ <h1><span>About Us<svg class="svg-icon" viewBox="0 0 20 20">
+<path fill="none" d="M18.109,17.776l-3.082-
+3.081c-0.059-0.059-0.135-0.077-0.211-0.087c1.373-1.38,2.221-3.28,2.221-5.379c0-4.212-3.414-
+7.626-7.625-7.626c-4.212,0-7.626,3.414-7.626,7.626s3.414,7.627,7.626,7.627c1.918,0,3.665-
+0.713,5.004-
+1.882c0.006,0.085,0.033,0.17,0.098,0.234l3.082,3.081c0.143,0.142,0.371,0.142,0.514,0C18.25,18.14
+8,18.25,17.918,18.109,17.776zM9.412,16.13c-3.811,0-6.9-3.089-6.9-6.9c0-3.81,3.089-6.899,6.9-
+6.899c3.811,0,6.901,3.09,6.901,6.899C16.312,13.041,13.223,16.13,9.412,16.13z"></path>
+</svg></span></h1>
+
+ <p>
+ Hey! we are <strong>students Help</strong>.Being a student isn’t just about learning, many
+students have changed the world in many departments of life. We give you <strong> <i>problemsolving and self developpement skills</i> </strong> and a way to communicate with others on a high
+level and use your skills to get a better life, and they teach it all at <strong>ELITE CLUB</strong>
+where they build your self-esteem and keep you motivated. Join us in this rewarding journey. You'll
+have fun, get help, and learn along the way!
+ </p>
+ </div>
+ <!-- About us section end -->
+
+ <!-- schedule start -->
+ <div class="section">
+ <h1><span>Schedule</span></h1>
+ <table>
+ <tr>
+ <th>Week</th>
+ <th>1</th>
+ <th>2</th>
+ <th>3</th>
+ <th>4</th>
+ </tr>
+ <tr>
+ <td>14H-16H</td>
+ <td class="selected">Self-awarness</td>
+ <td></td>
+ <td></td>
+ <td></td>
+ </tr>
+ <tr>
+ <td>14H-16H</td>
+ <td></td>
+ <td class="selected">Mindset developpement</td>
+ <td></td>
+ <td></td>
+ </tr>
+ <tr>
+ <td>14H-16H</td>
+ <td></td>
+ <td></td>
+ <td class="selected">Film disscusion</td>
+ <td></td>
+ </tr>
+ <tr>
+ <td>14H-16H</td>
+ <td></td>
+ <td></td>
+ <td></td>
+ <td class="selected">Quiz and Certificate</td>
+ </tr>
+ </table>
+ </div>
+ <!-- schedule end -->
+
+
+ <!-- Level of skills at the end of the training start -->
+ <div class="section">
+ <h1><span>Level of skills at the end of the training</span></h1>
+ <ul>
+ <li>Self awarness <br />
+ <progress min="0" max="100" value="90"></progress>
+ </li>
+ <li>Entrepreneurial mindset <br />
+ <progress min="0" max="100" value="70"></progress>
+ </li>
+ <li>Leadership <br />
+ <progress min="0" max="100" value="50"></progress>
+ </li>
+ </ul>
+ </div>
+ <!-- Level of skills at the end of the training end -->
+
+
+ <!-- Form section start -->
+ <div class="section">
+ <h1><span>Contact Us</span></h1>
+
+ <svg class="face" height="100" width="100">
+ <circle cx="50" cy="50" r="50" fill="#FDD835"/>
+ <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+ <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+ <circle cx="30" cy="30" r="5" fill="#000000"/>
+ <circle cx="70" cy="30" r="5" fill="#000000"/>
+ <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+ </svg>
+
+ <form>
+ <input name="name" placeholder="Name" type="text" required /><br/>
+ <input name="email" placeholder="Email" type="email" required /><br/>
+ <textarea name="message" placeholder="Message" required ></textarea>
+ <input type="submit" value="SEND" class="submit" />
+ </form>
+ </div>
+ <!-- Form section end -->
+
+ <!-- Contacts section start -->
+ <div class="section" id="contacts">
+ <h1><span>Follow Us</span></h1>
+ <div>
+ <a href="https://www.facebook.com/Club-ELITE-ENCG-Settat-313245262657962/">
+ <img alt="Elite" src="https://scontent.ffez1-1.fna.fbcdn.net/v/t1.0-
+9/51604606_313246462657842_7453725698495086592_n.jpg?_nc_cat=106&_nc_ohc=_b8COI4kdD
+4AQkgGZuajUDHPv68yYCT8gp8u1fvEJg8uvhdP3EJkPOZxQ&_nc_ht=scontent.ffez1-
+1.fna&oh=331e31ed8bf04b0aceafa933d941fb3a&oe=5E6D7E02" />
+ </a>
+ <a href="https://www.facebook.com/Students-Help111431763640824/?modal=admin_todo_tour">
+ <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+ </a>
+ <a href="http://sthelp.ml/" target="_blank">
+ <img alt="Students Help" src="https://scontent.ffez1-1.fna.fbcdn.net/v/l/t1.0-
+9/74172715_111435400307127_3396745435174404096_n.png?_nc_cat=105&_nc_ohc=O1wzjEvykX
+oAQkSboh4KFA76YXCutMpCzsKrpUGr47cSqQBdxTzFg3yNA&_nc_ht=scontent.ffez1-
+1.fna&oh=f34877c0f53f8050d857a12036373c4b&oe=5EA6002D" />
+ </a>
+ </div>
+ </div>
+ <!-- Contacts section end -->
+
+ <div class="copyright">
+ <center> &copy; 2020 <strong>Students Help</strong>.All rights reserved
+ <p>Designed & Developed by <strong>The moon</strong> </p>
+ </div></center>
+ <svg class="svg-icon" viewBox="0 0 20 20">
+<path d="M13.889,11.611c-0.17,0.17-
+0.443,0.17-0.612,0l-3.189-3.187l-3.363,3.36c-0.171,0.171-0.441,0.171-0.612,0c-0.172-0.169-0.172-
+0.443,0-0.611l3.667-3.669c0.17-0.17,0.445-
+0.172,0.614,0l3.496,3.493C14.058,11.167,14.061,11.443,13.889,11.611 M18.25,10c0,4.558-
+3.693,8.25-8.25,8.25c-4.557,0-8.25-3.692-8.25-8.25c0-4.557,3.693-8.25,8.25-
+8.25C14.557,1.75,18.25,5.443,18.25,10 M17.383,10c0-4.07-3.312-7.382-7.383-
+7.382S2.618,5.93,2.618,10S5.93,17.381,10,17.381S17.383,14.07,17.383,10"></path>
+</svg>
+
+ </body>
+</html>
